@@ -1,8 +1,16 @@
 
 public class Decespugliatore extends Macchine {
 
-	public Decespugliatore() {
-		// TODO Auto-generated constructor stub
+	private Boolean EnegineType;
+
+	public Decespugliatore( 
+							boolean EnegineType,
+							String marca,
+							int id ) {
+		
+		super(marca, id);
+		this.EnegineType = EnegineType;
+		
 	}
 
 }
